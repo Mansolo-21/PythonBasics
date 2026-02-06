@@ -26,3 +26,19 @@ print(type(thisdict))
 #remove
 thisdict.popitem() 
 print(thisdict)
+
+
+
+student={
+        "Student name":"John",
+        "age":18,
+        "course":"Cybersecurity"
+    }
+
+print(student)
+print(type(student))
+
+#accessing dictionary items
+print(student["student name"])
+print(student["age"])
+print(student["course"])
