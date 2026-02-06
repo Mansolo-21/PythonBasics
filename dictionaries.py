@@ -1,4 +1,4 @@
-#dictionaries- used to store data values in key:value pairs.
+"""#dictionaries- used to store data values in key:value pairs.
 # written with curly brackets, and have keys and values:
 thisdict =	{
   "brand": "Ford",
@@ -25,17 +25,17 @@ print(type(thisdict))
 
 #remove
 thisdict.popitem() 
-print(thisdict)
+print(thisdict)"""
 
 
-
+#Example2
 student={
         "Student name":"John",
-        "age":18,
-        "course":"Cybersecurity"
+        "Age":18,
+        "Course":"Cybersecurity"
     }
 
-print(student)
+"""print(student)
 print(type(student))
 
 #accessing dictionary items
@@ -58,18 +58,16 @@ print(student.keys())
 print(student.values())
 
 #accessing all keys and values
-print(student.items())
+print(student.items())"""
 
 #loop thru all keys
 for x in student.keys():
     print(x)
     
-
 #loop thru all values
 for y in student.values():
     print(y)
     
-
 #loop thru all items
-for z in student.items():
-    print(z)
+for x,y in student.items():
+    print(x,":",y) 
