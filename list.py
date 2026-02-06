@@ -41,3 +41,7 @@ print(students)
 #looping through a list
 for x in students:
     print(x)
+    
+courses=["Cybersecurity","HTML","Javascript","Web Development"]
+for y in courses:
+    print(y)
