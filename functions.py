@@ -34,7 +34,7 @@ def area(l,w):
 area(70,50)
 area(120,10)"""
 #function that calculates area of a circle
-def areaofcircle(r,a=3.14):
-    areaofcircle=a*r
-    print(f"The area of a circle with radius {r} is equal to {areaofcircle}")
+def areaofcircle(r,a=22/7):
+    area=a*r**2
+    print(f"The area of a circle with radius {r} is equal to {area}")
 areaofcircle(7)
