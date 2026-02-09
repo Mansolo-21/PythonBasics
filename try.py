@@ -13,6 +13,6 @@ except:
     
 #example
 try:
-    print(x)    
+    print()    
 except NameError:
     print("The variable is not defined")

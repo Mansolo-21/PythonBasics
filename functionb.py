@@ -26,8 +26,10 @@ def evenorodd(number):
     else:
         print(f"{number} is an odd number")
         
-evenorodd(4)
-evenorodd(7)
+#get user input
+num=int(input("Enter a number, "))
+evenorodd(num)
+
 #maximum of 2 numbers
 def maximum(a,b):
     if a > b:
