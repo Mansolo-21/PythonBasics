@@ -19,5 +19,5 @@ except
 try:    
     with open('wawr.txt','r')as x:
         print(x)
-except FileNotFoundError :
+except FileNotFoundError:
     print("The file does not exist")
