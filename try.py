@@ -16,3 +16,6 @@ try:
     print()    
 except NameError:
     print("The variable is not defined")
+    
+with open('wawr.txt','r')as x:
+    print(x)
